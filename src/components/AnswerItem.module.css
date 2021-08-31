@@ -1,0 +1,22 @@
+.answer {
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 6px;
+  color: seagreen;
+  cursor: pointer;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+.answer:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.correct {
+  background-color: teal;
+  color: white;
+}
+
+.wrong {
+  background-color: rgb(228, 44, 44);
+  color: white;
+}

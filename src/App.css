@@ -1,3 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 .App {
+  font-family: sans-serif;
   text-align: center;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: teal;
+  color: white;
+  border-radius: 4px;
+  padding: 0.75rem 1.5rem;
+  margin: 1rem 0;
+  border: 1px solid teal;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #11acac;
+  border-color: #11acac;
 }
