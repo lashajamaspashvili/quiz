@@ -9,7 +9,6 @@ import Loading from "./components/ui/Loading";
 import Results from "./components/Results";
 
 let isInitial = true;
-console.log('Lasha');
 
 const initialBaseState = {
   number: "",
